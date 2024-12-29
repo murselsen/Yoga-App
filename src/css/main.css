@@ -1,13 +1,180 @@
-/* Main Css File */
-
-
 @import url("header.css");
-@import url("hero.css");
-@import url("organizations.css");
-@import url("features.css");
-@import url("downloads.css");
+@import url("home.css");
+@import url("list.css");
+@import url("health.css");
+@import url("routine.css");
+@import url("follow.css");
+@import url("join.css");
 @import url("footer.css");
 
 body {
-    font-family: "Montserrat", serif;
+    font-family: Poppins, serif;
+    background-color: #F5F0FF;
+    color: #220953;
+}
+
+footer {
+    background-color: #1E0849;
+    color: #A197B4;
+}
+
+body.dark {
+    font-family: Poppins, serif;
+    background-color: #14092A;
+    color: #A197B4;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* Mobile Root */
+@media (max-width:767px) {
+    .biggest-text {
+        font-family: Lora;
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 59.4px;
+    }
+
+    .bigger-text {
+        font-family: Lora;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40.96px;
+    }
+
+    .big-text {
+        font-family: Lora;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30.72px;
+    }
+
+    h1 {
+        font-family: Lora;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30.72px;
+    }
+
+    h2 {
+        font-family: Lora;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25.6px;
+    }
+
+    h3 {
+        font-family: Lora;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.48px;
+    }
+
+    h4 {
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+    }
+
+    .small-text {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19.5px;
+    }
+
+    .smaller-text {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+}
+
+/* Desktop Root */
+@media (min-width:767px) {
+    .biggest-text {
+        font-family: Lora;
+        font-size: 96px;
+        font-weight: 500;
+        line-height: 124.8px;
+    }
+
+    .bigger-text {
+        font-family: Lora;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 81.92px;
+    }
+
+    .big-text {
+        font-family: Lora;
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 71.68px;
+    }
+
+    h1 {
+        font-family: Lora;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 46.08px;
+    }
+
+    h2 {
+        font-family: Lora;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30.72px;
+    }
+
+    h3 {
+        font-family: Lora;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25.6px;
+    }
+
+    h4 {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .small-text {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .smaller-text {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19.5px;
+    }
 }
