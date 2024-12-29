@@ -1,1 +1,2 @@
-# Partner Web Project Starter Pack
+# Yoga App
+## Choose Your Best Yoga Teacher
