@@ -1,0 +1,40 @@
+#home .container {
+    width: 1440px;
+    margin: auto;
+    padding: 38px 53px;
+    display: flex;
+    gap: 39px;
+
+}
+
+#home .container .content {
+    margin-left: calc(160px - 53px);
+    margin-top: calc(91px - 38px);
+    margin-bottom: 40px;
+    border: 1px solid purple;
+}
+
+#home .container .content .title-box {
+    position: relative;
+}
+
+#home .container .content .title-box #star {
+    position: absolute;
+    top: 160px;
+    left: 493px;
+}
+
+#home .container .content .title-box #circle {
+    position: absolute;
+    bottom: 45px;
+    left: -34px;
+}
+
+#home .container .content .title-box .title .title-span {
+    background: linear-gradient(73.19deg, #FF52AF 11.6%, #9F53FF 83.86%);
+    padding: 2px 12px;
+    border-radius: 16px;
+    color: #FFFFFF;
+    display: inline-block;
+    transform: rotate(10deg);
+}
