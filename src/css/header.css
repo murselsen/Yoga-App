@@ -1,0 +1,56 @@
+#page-header {
+    background-color: #F5F0FF;
+    height: 77px;
+    box-sizing: border-box;
+}
+
+#page-header .container {
+    padding: 24px 162px;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: auto;
+}
+
+.logo {
+    font-family: Lora;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.72px;
+    background: linear-gradient(73.19deg, #FF52AF 11.6%, #9F53FF 83.86%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#page-header .container .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-header .container .nav-actions .nav-button {
+    /* background-color: transparent; */
+    border: 0;
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+
+#page-header .container .navbar .nav-list {
+    display: flex;
+    gap: 72px;
+}
+
+#page-header .container .navbar .nav-list .nav-item {
+    padding: 3px 10px;
+}
+
+#page-header .container .navbar .nav-list .nav-item .nav-link {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #220953;
+}
