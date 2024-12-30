@@ -1,6 +1,5 @@
 #home .container {
-    width: 1440px;
-    margin: auto;
+
     padding: 38px 53px;
     display: flex;
     gap: 39px;
@@ -25,7 +24,7 @@
 
 #home .container .content .title-box #circle {
     position: absolute;
-    bottom: 45px;
+    top: 350px;
     left: -34px;
 }
 
@@ -36,4 +35,19 @@
     color: #FFFFFF;
     display: inline-block;
     transform: rotate(10deg);
+}
+
+#home .container .content .title-box .subTitle {
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+#home .container .content .title-box .points {
+    margin-top: 48px;
+    display: flex;
+    gap: 64px;
+}
+
+#home .container .content .title-box .points .point {
+    text-align: center;
 }
