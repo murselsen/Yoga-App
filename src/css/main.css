@@ -46,6 +46,22 @@ a {
     display: none;
 }
 
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.page-btn {
+    background: linear-gradient(73.19deg, #FF52AF 11.6%, #9F53FF 83.86%);
+    padding: 16px 28px;
+    display: flex;
+    gap: 4px;
+    border-radius: 64px;
+    width: fit-content;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+}
 
 /* Mobile Root */
 @media (max-width:767px) {
@@ -96,6 +112,13 @@ a {
         font-size: 15px;
         font-weight: 400;
         line-height: 22.5px;
+    }
+
+    p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
     }
 
     .small-text {

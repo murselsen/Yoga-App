@@ -1,0 +1,60 @@
+#health {
+    padding-block: 48px;
+}
+
+#health .container {
+    padding-inline: 165px;
+
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+#health .container .media {
+    position: relative;
+}
+
+#health .container .media .badge {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 8px 12px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+#health .container .media .badge.rate {
+    position: absolute;
+    top: 80px;
+    left: 65px;
+}
+
+#health .container .media .badge.courses {
+    position: absolute;
+    bottom: 40px;
+    right: 35px;
+}
+
+#health .container .media .badge .title {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+#health .container .media .badge .count {
+    background: linear-gradient(73.19deg, #FF52AF 11.6%, #9F53FF 83.86%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#health .container .content {
+    padding-block: 122px;
+    width: 579px;
+}
+
+#health .container .content p {
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
