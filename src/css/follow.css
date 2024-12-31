@@ -1,0 +1,32 @@
+#follow .container {
+    /* padding-block: 48px; */
+    /* padding-inline: 170px; */
+    padding: 48px 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+#follow .container .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+#follow .container .row .content {
+    width: 396px;
+    text-align: center;
+}
+
+#follow .container .row .img {
+    border-radius: 192px;
+    border: 10px solid #E5D9FD;
+}
+
+#follow .container .row .img-3 {
+    transform: rotate(15deg);
+}
+
+#follow .container .row .img-4 {
+    transform: rotate(-15deg);
+}
